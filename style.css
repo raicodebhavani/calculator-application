@@ -1,0 +1,43 @@
+.container {
+  /* border: 1px solid black; */
+  /* margin: 30px; */
+  max-width: 450px;
+  margin-top: 20px;
+}
+.head {
+  background-color: black;
+  color: white;
+  font-family: "roboto";
+  text-align: center;
+}
+
+.input {
+  border: 1px solid rgb(14, 13, 13);
+  height: 50px;
+  text-align: end;
+  font-size: 30px;
+}
+
+.inputData {
+  margin-top: 10px;
+  height: 50px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.button {
+  background-color: rgb(255, 165, 0);
+  color: white;
+  margin: 7px;
+  padding: 7px;
+  text-align: center;
+  font-style: bolder;
+  font-size: 30px;
+}
+
+p:hover {
+  background-color: blue;
+  cursor: pointer;
+}
